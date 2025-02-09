@@ -1,4 +1,4 @@
-
+import pic from '../public/Image/icons8-portfolio-96.png'
 
 const Navber = () => {
     return (
@@ -17,7 +17,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className='flex items-center gap-1'>
-                    <img className='w-11 h-11 object-cover rounded-full' src='../public/Image/icons8-portfolio-96.png' alt="" />
+                    <img className='w-11 h-11 object-cover rounded-full' src={pic} alt="" />
                     <a className="btn btn-ghost text-3xl font-extrabold m-0 p-0 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent"> <i>Fahim</i></a>
                 </div>
             </div>

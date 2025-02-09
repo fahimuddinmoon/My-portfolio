@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
-
+import pic from '../public/Image/p10.png'
+import pic1 from '../public/Image/IMG_3280.jpg'
+import pic2 from '../public/Image/icons8-portfolio-96.png'
 const Layout3 = () => {
     return (
         <div className="">
@@ -9,11 +11,11 @@ const Layout3 = () => {
                 <div className="text-3xl text-blue-600"><Link title="Back To Home" to='/'><FaRegArrowAltCircleLeft /></Link></div>
                 <div className=''>
                     <Link className="flex items-center gap-1" to='/'>
-                        <img className='w-11 h-11 object-cover rounded-full' src='../public/Image/icons8-portfolio-96.png' alt="" />
+                        <img className='w-11 h-11 object-cover rounded-full' src={pic2} alt="" />
                         <a className="btn btn-ghost text-3xl font-extrabold m-0 p-0 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent"> <i>Fahim</i></a></Link>
                 </div>
                 <div>
-                    <img title="Fahim Uddin Moon" className="w-12 h-12 object-cover rounded-full" src="../public/Image/IMG_3280.jpg" alt="" />
+                    <img title="Fahim Uddin Moon" className="w-12 h-12 object-cover rounded-full" src={pic1} alt="" />
                 </div>
             </div>
 
@@ -22,7 +24,7 @@ const Layout3 = () => {
                     <h3 className="text-4xl font-bold text-center py-8">Project Details</h3>
                 </div>
                 <div className="sm:w-8/12 sm:mx-auto py-8 px-3">
-                    <img className="my-3 border-4 rounded-3xl border-gray-700 p-3" src="../public/Image/p10.png" alt="" />
+                    <img className="my-3 border-4 rounded-3xl border-gray-700 p-3" src={pic} alt="" />
                     <p className=" py-3 text-lg font-bold text-gray-700">Brief description : - This is a Sports Equipment Store, where customers can purchase various sports items such as bats, balls, and other gear. Each product has a stock limit, and once a product is out of stock, it cannot be purchased. Customers can view all their purchased items on a dedicated route.</p>
                     <p className="py-3text-lg font-bold underline text-gray-700"><a className="text-blue-800" href=" https://project-ten-96173.web.app/">Live project link : -  https://project-ten-96173.web.app/</a></p>
                     <p className="py-3 text-lg font-bold underline text-gray-700"><a className="text-blue-800" href="https://github.com/fahimuddinmoon/sports-store"> GitHub repository link : - https://github.com/fahimuddinmoon/sports-store</a></p>

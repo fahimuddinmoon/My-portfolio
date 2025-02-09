@@ -1,11 +1,11 @@
-
+import pic from '../public/Image/IMG_3280.jpg'
 import { BsFacebook } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
             <aside>
-                <img className='w-24 h-24 object-cover rounded-full' src='../public/Image/IMG_3280.jpg' alt="" />
+                <img className='w-24 h-24 object-cover rounded-full' src={pic} alt="" />
                 <p className='text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent'>
                   <i>Fahim Uddin Moon</i>
                 </p>

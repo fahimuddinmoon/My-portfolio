@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
-
+import pic from '../public/Image/p10.png'
+import pic2 from '../public/Image/p11.png'
+import pic3 from '../public/Image/p12.png'
 const Project = () => {
     return (
        <div>
@@ -17,9 +19,9 @@ const Project = () => {
                  whileHover={{ scale: 1.4 }}
                  whileTap={{ scale: 0.9 }}
                  style={{ textAlign: 'center' }}
-                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='project1'>View More</Link></motion.button>
+                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project1'>View More</Link></motion.button>
                </div>
-               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src="../public/Image/p12.png" alt="" />
+               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic3} alt="" />
             </div>
 
             <div className="  sm:flex items-center gap-7 justify-between border-3   my-3 border-blue-400 rounded-3xl p-9 bg-black text-white">
@@ -32,9 +34,9 @@ const Project = () => {
                  whileHover={{ scale: 1.4 }}
                  whileTap={{ scale: 0.9 }}
                  style={{ textAlign: 'center' }}
-                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='project2'>View More</Link></motion.button>
+                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project2'>View More</Link></motion.button>
               </div>
-              <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src="../public/Image/p11.png" alt="" />
+              <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic2} alt="" />
             </div>
 
             <div className="  sm:flex items-center gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-9 bg-black text-white">
@@ -47,9 +49,9 @@ const Project = () => {
                  whileHover={{ scale: 1.4 }}
                  whileTap={{ scale: 0.9 }}
                  style={{ textAlign: 'center' }}
-                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='project3'>View More</Link></motion.button>
+                className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project3'>View More</Link></motion.button>
                </div>
-               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src="../public/Image/p10.png" alt="" />
+               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic} alt="" />
             </div>
         </div>
        </div>

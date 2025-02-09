@@ -1,4 +1,4 @@
-
+import pic from '../public/Image/IMG_3280.jpg'
 import { BsFacebook } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -45,7 +45,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <img className="w-72  h-72 mx-auto sm:my-12 border-4 border-blue-600 rounded-full object-cover" src='../public/Image/IMG_3280.jpg' alt="" />
+                <img className="w-72  h-72 mx-auto sm:my-12 border-4 border-blue-600 rounded-full object-cover" src={pic} alt="" />
             </div>
         </div>
     );
