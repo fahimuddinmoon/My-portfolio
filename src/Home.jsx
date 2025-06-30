@@ -7,19 +7,21 @@ import Education from "./Education";
 import Skill from "./Skill";
 import Project from "./Project";
 import Contact from "./Contact";
+import WorkProcess from "./WorkProcess";
 
 
 const Home = () => {
     return (
-        <div className="w-full">
-            <div className="w-full fixed bg-gradient-to-r from-gray-200 to-gray-600 "><Navber></Navber></div>
-            <div className="  pt-16 bg-gradient-to-r from-gray-200 to-gray-600"><Banner></Banner></div>
-            <div className="  py-7 bg-gradient-to-r from-gray-200 to-gray-600 p-11"><AboutMe></AboutMe></div>
-            <div className="  py-7 bg-gradient-to-r from-gray-200 to-gray-600 p-11"><Skill></Skill></div>
-            <div className="  py-7 bg-gradient-to-r from-gray-200 to-gray-600 p-11"><Education></Education></div>
-            <div className="  py-7 bg-gradient-to-r from-gray-200 to-gray-600 p-11"><Project></Project></div>
-            <div className="  py-7 bg-gradient-to-r from-gray-200 to-gray-600 p-11"><Contact></Contact></div>
-            <div className="  bg-gradient-to-r from-gray-200 to-gray-600"><Footer></Footer></div>
+        <div className="w-full bg-gradient-to-r from-black to-blue-950">
+            <div className="w-full fixed  "><Navber></Navber></div>
+            <div className="  pt-16 "><Banner></Banner></div>
+            <div className=" "><WorkProcess></WorkProcess></div>
+            <div className=" "><AboutMe></AboutMe></div>
+            <div className=" "><Skill></Skill></div>
+            <div className=" "><Education></Education></div>
+            <div className=" "><Project></Project></div>
+            <div className=" "><Contact></Contact></div>
+            <div className="  "><Footer></Footer></div>
         </div>
     );
 };

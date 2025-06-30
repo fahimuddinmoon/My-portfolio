@@ -1,27 +1,66 @@
-
-
+import pic from '../public/Image/PXL_20240927_152926112.PORTRAIT.jpg'
+import { motion } from 'framer-motion';
 const AboutMe = () => {
     return (
-        <div id="aboutMe">
-            <h2 className="text-3xl font-extrabold text-center mb-7 p-11">Bringing Designs To Life With Code & Creativity</h2>
-            <div className="sm:grid sm:grid-cols-2 gap-6">
-                <div className="mb-4 p-5 bg-green-100 rounded-3xl">
-                    <h3 className="text-2xl font-bold text-gray-800 my-3">1. My Programming Journey</h3>
-                    <p className="text-sm font-bold text-gray-800 my-3">My journey into programming started with curiosity, which soon turned into a passion. I began with HTML, CSS, and JavaScript and gradually moved on to modern technologies like React and Tailwind CSS. Along the way, I also explored backend development, working with Firebase, Express.js, Node.js, and MongoDB. I love bridging design and functionality to create seamless user experiences. Learning new technologies and staying up-to-date is a crucial part of my journey.</p>
+        <div id="aboutMe" className='px-4  pb-20 sm:px-12'>
+            <motion.h2
+                initial={{ y: 500, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1 }}
+                className="text-3xl font-extrabold text-center mb-7 p-11 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Bringing Designs To Life  With <br className='sm' />Code & Creativity</motion.h2>
+            <div className="grid grid-cols-2">
+                <motion.div
+                    initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    className='mt-3'>
+                    <div className='bg-transparent px-4 py-1 m-3 rounded-xl mt-auto'>
+                        <li>💻<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '> Professional Summary</span></li>
+                        <p className='text-sm font-bold   text-gray-600 pl-7'> I am a Frontend Web Developer with expertise in HTML, CSS, JavaScript, Tailwind CSS, and React.js, building responsive and interactive web applications. I specialize in modern UI development, ensuring a seamless user experience. I have experience with API integration and Firebase Authentication and a basic understanding of Node.js, Express.js, and MongoDB.</p>
+                    </div>
+                    <div className='bg-transparent px-4 py-1 m-3 rounded-xl mt-auto'>
+
+                        <li>🚀<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent ' >Personal Journey & Skills</span></li>
+                        <p className='text-sm font-bold   text-gray-600 pl-7'>Besides studying, becoming a developer is an important part of my achievement. As a frontend developer I can create frontend using Html , CSS , JavaScript , react , tailwind CSS and also have basic understanding of firebase authentication node.js , express.js , MongoDB .</p>
+                    </div>
+                    <div className='bg-transparent px-4 py-1 m-3 rounded-xl mt-auto'>
+                        <li>🎯 <span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Passion & Goal</span></li>
+                        <p className='text-sm font-bold   text-gray-600 pl-7'> Inventing new things, finding solutions to complex programming related problems, improving user experience with one's own skills, etc. are part of the passion of a developer.My goal as a developer is to develop myself as a skilled full-stack developer. Become familiar and proficient with new technologies. Finding solutions to programming related problems.
+                        </p>
+                    </div>
+                    <div className='bg-transparent px-4 py-1 m-3 rounded-xl mt-auto'>
+                        <li>💡<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>How I can help</span></li>
+                        <p className='text-sm font-bold   text-gray-600 pl-7'> I can build responsive, user-friendly, and visually appealing web interfaces that enhance user experience.I also ensure collaborate with designers and backend developers to create seamless, dynamic interfaces that improve customer satisfaction.</p>
+                    </div>
+                    <div className='bg-transparent px-4 py-1 m-3 rounded-xl mt-auto'>
+                        <li>🎮<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Outside of coding</span></li>
+                        <p className='text-sm font-bold   text-gray-600 pl-7'> Outside of coding, I enjoy traveling, playing games, and organizing my surroundings. I truly believe that learning never stops — and I’m here for the journey.</p>
+                    </div>
+                </motion.div>
+                <div>
+                    <motion.img
+
+                        initial={{
+                            opacity: 0,
+                            scale: 0,
+                            x: Math.random() * 200 - 100, // Random X (-100px to +100px)
+                            y: Math.random() * 200 - 100, // Random Y
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            scale: 1,
+                            x: 0,
+                            y: 0,
+                            transition: {
+                                delay: 0.1,
+                                duration: 0.7,
+                                ease: "easeOut",
+                            },
+                        }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        className="w-[350px]   h-[450px] shadow-2xl shadow-black mx-auto sm:my-12 border-4 border-black  object-cover rounded-full" src={pic} alt="" />
                 </div>
-                <div className="mb-4 p-5 bg-yellow-100 rounded-3xl">
-                    <h3 className="text-2xl font-bold text-gray-800 my-3">2. My Hobbies</h3>
-                    <p className="text-sm font-bold text-gray-800 my-3">Coding is not just my work; it is also one of my biggest hobbies. I enjoy learning new technologies, exploring open-source projects, and experimenting with UI/UX design. Besides programming, I love reading books, watching tech-related articles and videos, gaming, and watching movies. When I have time, I participate in coding challenges to sharpen my problem-solving skills.</p>
-                </div>
-                <div className="mb-4 p-5 bg-red-100 rounded-3xl">
-                    <h3 className="text-2xl font-bold text-gray-800 my-3">3. The Type of Work I Enjoy</h3>
-                    <p className="text-sm font-bold text-gray-800 my-3">I love working on creative and interactive web projects where user experience is a top priority. Crafting clean, performance-optimized, and responsive websites excites me. I enjoy tackling challenging problems and working with new technologies. Whether it is solo development or teamwork, I always strive to deliver high-quality solutions that enhance user engagement.</p>
-                </div>
-                <div className="mb-4 p-5 bg-blue-100 rounded-3xl">
-                    <h3 className="text-2xl font-bold text-gray-800 my-3">4. My Personality</h3>
-                    <p className="text-sm font-bold text-gray-800 my-3">I am a problem solver with an eye for detail, always eager to learn and improve. I enjoy combining logic and creativity to build efficient solutions. Patience and persistence drive me to tackle complex challenges. While I enjoy working in a team, I can also focus well on solo projects. My passion for technology and continuous learning keeps me motivated to grow and refine my skills.</p>
-                </div>
-               
             </div>
         </div>
     );
