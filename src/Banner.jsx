@@ -1,4 +1,4 @@
-import animation from '../dist/assets/Animation - 1751276887432 (1).json'
+import animation from '../dist/assets/Animation - 1751276887432 (2).json'
 import pic1 from '../public/Image/icons8-facebook-logo-96.png'
 import pic2 from '../public/Image/icons8-github-logo-96.png'
 import pic3 from '../public/Image/icons8-linkedin-logo-96.png'

@@ -1,57 +1,63 @@
-import { Link } from "react-router-dom";
-import { motion } from 'framer-motion';
-import pic from '../public/Image/p10.png'
-import pic2 from '../public/Image/p11.png'
-import pic3 from '../public/Image/p12.png'
+import pic1 from '../public/Image/Screenshot 2025-07-02 011815.png'
+import pic2 from '../public/Image/Screenshot 2025-07-02 011857.png'
+import pic3 from '../public/Image/Screenshot 2025-07-02 011957.png'
+import pic4 from '../public/Image/Screenshot 2025-07-02 014102.png'
 const Project = () => {
    return (
-      <div className="">
-         <h3 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent ">Some Of My Projects</h3>
-         <div className=" my-5  grid md:grid-cols-2 lg:grid-cols-3 gap-7 mx-3 md:mx-11 lg:mx-20">
-
-            <div className="  items-center gap-7 justify-between border-3 border-blue-400 rounded-3xl p-9 my-3 border-animated-projects text-white">
-               <div>
-                  <h3 className="text-2xl font-bold my-3"><a href="https://final-project-f38eb.web.app/">Name : real-estate-web</a></h3>
-                  <p className="text-sm font-bold my-3">A full-stack real estate platform where users can buy and sell properties, post listings, and leave reviews. Admins approve property listings and can assign roles like Agent or Admin.</p>
-                  <p><a className="underline text-sm font-bold text-blue-800" href="https://final-project-f38eb.web.app/">Project Link : https://final-project-f38eb.web.app/</a></p>
-
-                  <motion.button
-                     whileHover={{ scale: 1.4 }}
-                     whileTap={{ scale: 0.9 }}
-                     style={{ textAlign: 'center' }}
-                     className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project1'>View More</Link></motion.button>
+      <div className="mx-3 md:mx-11 lg:mx-20">
+         <h3 className="text-4xl font-bold text-center mb-12  bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Some Of My Projects</h3>
+         <div className=" my-5  grid md:grid-cols-2 lg:grid-cols-2 gap-7 lg:mx-24 ">
+            {/* project - 1 */}
+            <div className=" items-center  gap-7 justify-between border-3 border-blue-400 rounded-3xl p-4 my-3 border-animated-projects text-white">
+               <div className='overflow-hidden'>
+                  <img className='w-full h-full rounded-2xl ' src={pic3} alt="" />
+                  <div className='my-3 '>
+                     <h2 className='bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent text-2xl font-bold'>Job Portal</h2>
+                     <div className='flex justify-between items-center pt-2'>
+                        <p className='text-xl md:text-lg font-bold text-gray-400'>Frontend & Backend</p>
+                        <button className='px-3 py-1 bg-gradient-to-r  from-blue-800 to-purple-950 rounded-2xl text-sm font-bold'>Read More</button>
+                     </div>
+                  </div>
                </div>
-               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic3} alt="" />
             </div>
-
-            <div className="  items-center gap-7 justify-between border-3   my-3 border-blue-400 rounded-3xl p-9 border-animated-projects text-white">
-               <div>
-                  <h3 className="text-2xl font-bold my-3"><a href="https://fir-projects-23909.web.app/">Name : language-club-web </a></h3>
-                  <p className="text-sm font-bold my-3">This is a Language Club Course Site where teachers from different countries can sell courses based on their language expertise. Users can browse and purchase courses according to their needs.......</p>
-                  <p><a className="underline text-sm font-bold text-blue-800" href="https://fir-projects-23909.web.app/">Project Link : https://fir-projects-23909.web.app/</a></p>
-
-                  <motion.button
-                     whileHover={{ scale: 1.4 }}
-                     whileTap={{ scale: 0.9 }}
-                     style={{ textAlign: 'center' }}
-                     className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project2'>View More</Link></motion.button>
+            {/* project - 2 */}
+            <div className=" items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               <div className='overflow-hidden'>
+                  <img className='w-full h-full rounded-2xl ' src={pic4} alt="" />
+                  <div className='my-3 '>
+                     <h2 className='bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent text-2xl font-bold'>Job Portal</h2>
+                     <div className='flex justify-between items-center pt-2'>
+                        <p className='text-xl md:text-lg font-bold text-gray-400'>Frontend & Design</p>
+                        <button className='px-3 py-1 bg-gradient-to-r  from-blue-800 to-purple-950 rounded-2xl text-sm font-bold'>Read More</button>
+                     </div>
+                  </div>
                </div>
-               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic2} alt="" />
             </div>
-
-            <div className="  items-center gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-9 border-animated-projects text-white">
-               <div>
-                  <h3 className="text-2xl font-bold my-3"><a href="https://project-ten-96173.web.app/">Name : sports-store</a></h3>
-                  <p className="text-sm font-bold my-3">This is a Sports Equipment Store, where customers can purchase various sports items such as bats, balls, and other gear. Each product has a stock limit, and once a product is out of stock......</p>
-                  <p><a className="underline text-sm font-bold text-blue-800" href="https://project-ten-96173.web.app/">Project Link : https://project-ten-96173.web.app/</a></p>
-
-                  <motion.button
-                     whileHover={{ scale: 1.4 }}
-                     whileTap={{ scale: 0.9 }}
-                     style={{ textAlign: 'center' }}
-                     className="px-2 py-2 mb-3 bg-gradient-to-r from-blue-600 to-pink-700 text-sm text-white mt-4 font-bold rounded-2xl"><Link to='/project3'>View More</Link></motion.button>
+            {/* project - 3 */}
+            <div className=" items-center  gap-7 justify-between border-3   my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               <div className='overflow-hidden'>
+                  <img className='w-full h-full rounded-2xl ' src={pic1} alt="" />
+                  <div className='my-3 '>
+                     <h2 className='bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent text-2xl font-bold'>Job Portal</h2>
+                     <div className='flex justify-between items-center pt-2'>
+                        <p className='text-xl md:text-lg font-bold text-gray-400'>Frontend & Backend</p>
+                        <button className='px-3 py-1 bg-gradient-to-r  from-blue-800 to-purple-950 rounded-2xl text-sm font-bold'>Read More</button>
+                     </div>
+                  </div>
                </div>
-               <img className="w-96 border-4 p-2 rounded-2xl border-gray-400" src={pic} alt="" />
+            </div>
+            {/* project - 4 */}
+            <div className=" items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               <div className='overflow-hidden'>
+                  <img className='w-full h-full rounded-2xl ' src={pic2} alt="" />
+                  <div className='my-3 '>
+                     <h2 className='bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent text-2xl font-bold'>Job Portal</h2>
+                     <div className='flex justify-between items-center pt-2'>
+                        <p className='text-xl md:text-lg font-bold text-gray-400'>Frontend & Backend</p>
+                        <button className='px-3 py-1 bg-gradient-to-r  from-blue-800 to-purple-950 rounded-2xl text-sm font-bold'>Read More</button>
+                     </div>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
