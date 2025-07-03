@@ -1,4 +1,6 @@
-
+import { MdAddIcCall } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 import pic1 from '../public/Image/icons8-facebook-logo-96.png'
 import pic2 from '../public/Image/icons8-github-logo-96.png'
 import pic3 from '../public/Image/icons8-linkedin-logo-96.png'
@@ -6,7 +8,7 @@ import pic4 from '../public/Image/icons8-whatsapp-logo-96.png'
 import { motion } from 'framer-motion';
 const Footer = () => {
     return (
-        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 px-3 md:px-11 lg:px-20">
+        <footer id="Contact" className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 px-3 md:px-11 lg:px-20">
 
             <nav className='sm:flex justify-between md:gap-28 lg:gap-96 items-center'>
                 <div>
@@ -68,9 +70,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='my-8'>
-                    <p><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>+880 1864 - 466864</span></p>
-                    <p><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>fahimmoon103@gmail.com</span></p>
-                    <p><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent'> Chittagong , Bangladesh </span></p>
+                    <p className="flex gap-7 items-center text-2xl font-bold text-gray-500"><MdAddIcCall /><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>+880 1864 - 466864</span></p>
+                    <p className="flex gap-7 items-center text-2xl font-bold text-gray-500"><MdOutlineMailOutline /><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>fahimmoon103@gmail.com</span></p>
+                    <p className="flex gap-7 items-center text-2xl font-bold text-gray-500"><FaLocationDot /><span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent'> Chittagong , Bangladesh </span></p>
                 </div>
             </nav>
         </footer>

@@ -1,10 +1,11 @@
-import animation from '../dist/assets/Animation - 1751276887432 (2).json'
+import Lottie from 'lottie-react'
+import animation from '../dist/assets/Animation - 1751276887432.json'
 import pic1 from '../public/Image/icons8-facebook-logo-96.png'
 import pic2 from '../public/Image/icons8-github-logo-96.png'
 import pic3 from '../public/Image/icons8-linkedin-logo-96.png'
 import pic4 from '../public/Image/icons8-whatsapp-logo-96.png'
 import { motion } from 'framer-motion';
-import Lottie from 'lottie-react';
+// import Lottie from 'lottie-react';
 const Banner = () => {
     return (
         <div id="nav" className="sm:grid sm:grid-cols-2  items-center  md:px-0 lg:px-12">
@@ -27,7 +28,7 @@ const Banner = () => {
                     initial={{ y: 500, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}>
-                    <ul className="flex  gap-4 my-1 sm:my-2 sm:pl-12 p-4 items-center">
+                    <ul className="flex  gap-4 my-1 sm:my-2 sm:pl-12  items-center">
                         <motion.li
                             whileHover={{ scale: 1.5 }}
                             whileTap={{ scale: 0.9 }}
@@ -82,9 +83,12 @@ const Banner = () => {
 
                 </motion.div>
             </div>
-            <div>
-                <Lottie className='lg:w-[500px] lg:h-[500px] hover:opacity-100 transition duration-1500 lg:ml-48 z-10 opacity-40' animationData={animation}></Lottie>
-            </div>
+            <motion.div
+                initial={{ y: -500, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1 }}>
+                <Lottie className='lg:w-[500px] lg:h-[500px] hover:opacity-100 transition duration-1000 lg:ml-48 z-10 opacity-40' animationData={animation}></Lottie>
+            </motion.div>
         </div>
     );
 };

@@ -4,16 +4,17 @@ const AboutMe = () => {
     return (
         <div id="aboutMe" className=' pb-20  md:px-4 lg:px-14'>
             <motion.h2
-                initial={{ y: 500, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.3 }}
                 className="text-3xl font-extrabold text-center mb-7 p-11 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Bringing Designs To Life  With <br className='sm' />Code & Creativity</motion.h2>
             <div className="lg:grid grid-cols-2">
                 <motion.div
-                    initial={{ opacity: 0, y: 100 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    initial={{ x: -200, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    viewport={{ once: true }}
                     className='mt-3'>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
                         <li>💻<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '> Professional Summary</span></li>

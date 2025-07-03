@@ -3,7 +3,7 @@ import 'animate.css';
 import { motion } from 'framer-motion';
 const Navber = () => {
     return (
-        <div className="navbar fixed backdrop-brightness-100 backdrop-blur-3xl z-40  md:px-11 lg:px-20 ">
+        <div  className="navbar fixed backdrop-brightness-100 backdrop-blur-3xl z-40  md:px-11 lg:px-20 ">
             <motion.div
                 initial={{ x: -500, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -18,7 +18,8 @@ const Navber = () => {
                         className="menu menu-sm dropdown-content border-animated rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><a className='text-sm font-bold bg-gradient-to-r from-blue-600 to-pink-800 bg-clip-text text-transparent' href="#nav">Home</a></li>
                         <li><a className='text-sm font-bold bg-gradient-to-r from-blue-600 to-pink-800 bg-clip-text text-transparent' href="#aboutMe">About Me</a></li>
-                        <li><a className='text-sm font-bold bg-gradient-to-r from-blue-600 to-pink-800 bg-clip-text text-transparent' href="#contact">Contact Me</a></li>
+                        <li><a className='text-sm font-bold bg-gradient-to-r from-blue-600 to-pink-800 bg-clip-text text-transparent' href="#projects">Projects</a></li>
+                        <li><a className='text-sm font-bold bg-gradient-to-r from-blue-600 to-pink-800 bg-clip-text text-transparent' href="#Contact">Contact</a></li>
                     </ul>
                 </div>
                 <div className='flex items-center gap-1'>
@@ -34,8 +35,9 @@ const Navber = () => {
                 <ul className="menu menu-horizontal px-1">
                     <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#nav">Home</a></li>
                     <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#aboutMe">About Me</a></li>
-                    <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#contact">Contact Me</a></li>
-                    <li> <a href="" download className="animate__heartBeat  text-sm font-bold border-2 border-blue-400 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Resume</a></li>
+                    <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#projects">Projects</a></li>
+                    <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#Contact">Contact</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1jd_VSY5vqsoiLzryKnybAK5__Y4tOKqY/view?usp=sharing" download className="animate__heartBeat  text-sm font-bold border-2 border-blue-400 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Resume</a></li>
 
                 </ul>
             </motion.div>

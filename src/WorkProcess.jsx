@@ -8,7 +8,12 @@ import { motion } from 'framer-motion';
 const WorkProcess = () => {
     return (
         <div className='pb-10 px-3  md:px-12 lg:px-20'>
-             <h2 className='text-4xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent'>My Quality Service</h2>
+            <motion.h2
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.3 }}
+                className='text-4xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent'>My Quality Service</motion.h2>
             <div className=" grid md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-6">
                 <motion.div
                     initial={{

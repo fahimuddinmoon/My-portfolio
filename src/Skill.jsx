@@ -14,7 +14,12 @@ import 'animate.css';
 const Skill = () => {
     return (
         <div className='bg-gradient-to-r from-gray-900  to-transparent mx-3 md:mx-11 lg:mx-20 rounded-4xl py-14 '>
-            <h3 className="text-3xl font-extrabold text-center mb-7 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Skills That Drive Success</h3>
+            <motion.h3
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true, amount: 0.3 }}
+                className="text-3xl font-extrabold text-center mb-7 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Skills That Drive Success</motion.h3>
             <div className="">
                 <ul className="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 items-center h-full">
                     <motion.div className='h-full'
