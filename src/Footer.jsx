@@ -8,9 +8,9 @@ import pic4 from '../public/Image/icons8-whatsapp-logo-96.png'
 import { motion } from 'framer-motion';
 const Footer = () => {
     return (
-        <footer id="Contact" className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 px-3 md:px-11 lg:px-20">
+        <footer id="Contact" className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 px-3 md:px-5 lg:px-10">
 
-            <nav className='sm:flex justify-between md:gap-28 lg:gap-96 items-center'>
+            <nav className='w-11/12 mx-auto sm:flex justify-between md:gap-28 lg:gap-96 items-center'>
                 <div>
                     <h6 className="footer-title text-2xl">Social</h6>
                     <div className="grid grid-flow-col gap-4">

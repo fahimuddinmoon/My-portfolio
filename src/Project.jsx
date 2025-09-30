@@ -36,7 +36,7 @@ const Project = () => {
                   },
                }}
                viewport={{ once: true, amount: 0.3 }}
-               className=" items-center  gap-7 justify-between border-3 border-blue-400 rounded-3xl p-4 my-3 border-animated-projects text-white">
+               className="bg-[#0f0e0e] items-center  gap-7 justify-between border-3 border-blue-400 rounded-3xl p-4 my-3 border-animated-projects text-white">
                <div className='overflow-hidden'>
                   <img className='w-full h-full rounded-2xl ' src={pic3} alt="" />
                   <div className='my-3 '>
@@ -72,7 +72,7 @@ const Project = () => {
                   },
                }}
                viewport={{ once: true, amount: 0.3 }}
-               className=" items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               className="bg-[#0f0e0e] items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
                <div className='overflow-hidden'>
                   <img className='w-full h-full rounded-2xl ' src={pic4} alt="" />
                   <div className='my-3 '>
@@ -108,7 +108,7 @@ const Project = () => {
                   },
                }}
                viewport={{ once: true, amount: 0.3 }}
-               className=" items-center  gap-7 justify-between border-3   my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               className="bg-[#0f0e0e] items-center  gap-7 justify-between border-3   my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
                <div className='overflow-hidden'>
                   <img className='w-full h-full rounded-2xl ' src={pic1} alt="" />
                   <div className='my-3 '>
@@ -144,7 +144,7 @@ const Project = () => {
                   },
                }}
                viewport={{ once: true, amount: 0.3 }}
-               className=" items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
+               className="bg-[#0f0e0e] items-center  gap-7 justify-between border-3 my-3 border-blue-400 rounded-3xl p-4 border-animated-projects text-white">
                <div className='overflow-hidden'>
                   <img className='w-full h-full rounded-2xl ' src={pic2} alt="" />
                   <div className='my-3 '>
@@ -207,7 +207,7 @@ const Project = () => {
             <div className="modal-box backdrop-blur-3xl  bg-transparent">
                <h3 className="font-bold text-xl  text-center bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent">Project : Demo Portfolio</h3>
                <h3 className="font-bold text-lg text-center">📝 <span className='bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent'>Description</span></h3>
-               <p className=" font-semibold bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent text-sm">This is a fully responsive home page designed using React and Tailwind CSS. The project focuses on modern UI/UX design principles and ensures a seamless experience across devices, including desktops and smartphones. No backend or functional interactivity (like forms, buttons, routing) is implemented in this version—it's purely a static visual layout intended for frontend UI design practice and presentation.</p>
+               <p className=" font-semibold bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent text-sm">This is a fully responsive home page designed using React and Tailwind CSS. The project focuses on modern UI/UX design principles and ensures a seamless experience across devices, including desktops and smartphones. No backend or functional interactivity (like forms, buttons, routing) is implemented in this version — its purely a static visual layout intended for frontend UI design practice and presentation.</p>
                <div className="text-sm font-semibold">
                   <p className='text-lg font-bold text-center'>🚀 <span className='bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent'> Features </span></p>
                   <div className='bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent'>

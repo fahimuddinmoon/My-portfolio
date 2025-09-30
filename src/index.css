@@ -3,7 +3,7 @@
 @plugin "daisyui";
 
 
-@keyframes border-spin {
+/* @keyframes border-spin {
         0% {
           background-position: 0% 50%;
         }
@@ -50,4 +50,4 @@
        .border-animated-projects {
         background: linear-gradient(270deg, #010101, #2b0156, #2c2b2b);
         background-size: 600% 600%;
-        animation: border-spin 8s linear infinite;}
+        animation: border-spin 8s linear infinite;} */

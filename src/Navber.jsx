@@ -37,7 +37,7 @@ const Navber = () => {
                     <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#aboutMe">About Me</a></li>
                     <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#projects">Projects</a></li>
                     <li><a className='animate__heartBeat mr-9 text-sm font-bold bg-gradient-to-r from-cyan-400 to-blue-700 bg-clip-text text-transparent' href="#Contact">Contact</a></li>
-                    <li> <a href="https://drive.google.com/file/d/1jd_VSY5vqsoiLzryKnybAK5__Y4tOKqY/view?usp=sharing" download className="animate__heartBeat  text-sm font-bold border-2 border-blue-400 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Resume</a></li>
+                    <li> <a href="https://drive.google.com/file/d/1wubJtC9c7uaSFE20g4Z8kPMVn_ksQpo5/view?usp=sharing" download className="animate__heartBeat  text-sm font-bold border-2 border-blue-400 bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">Resume</a></li>
 
                 </ul>
             </motion.div>

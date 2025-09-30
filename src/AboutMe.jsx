@@ -1,4 +1,4 @@
-import pic from '../public/Image/PXL_20240927_152926112.PORTRAIT.jpg'
+import pic from '../public/Image/IMG_1755193075511.jpg'
 import { motion } from 'framer-motion';
 const AboutMe = () => {
     return (
@@ -17,26 +17,36 @@ const AboutMe = () => {
                     viewport={{ once: true }}
                     className='mt-3'>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
-                        <li>💻<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '> Professional Summary</span></li>
-                        <p className='text-sm font-bold   text-gray-600 pl-7'> I am a Frontend Web Developer with expertise in HTML, CSS, JavaScript, Tailwind CSS, and React.js, building responsive and interactive web applications. I specialize in modern UI development, ensuring a seamless user experience. I have experience with API integration and Firebase Authentication and a basic understanding of Node.js, Express.js, and MongoDB.</p>
+                        <ul>
+                            <li>💻<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '> Professional Summary</span></li>
+                        </ul>
+                        <p className='text-sm font-bold   text-gray-300 pl-7'> I am a Frontend Web Developer with expertise in HTML, CSS, JavaScript, Tailwind CSS, and React.js, building responsive and interactive web applications. I specialize in modern UI development, ensuring a seamless user experience. I have experience with API integration and Firebase Authentication and a basic understanding of Node.js, Express.js, and MongoDB.</p>
                     </div>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
 
-                        <li>🚀<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent ' >Personal Journey & Skills</span></li>
-                        <p className='text-sm font-bold   text-gray-600 pl-7'>Besides studying, becoming a developer is an important part of my achievement. As a frontend developer I can create frontend using Html , CSS , JavaScript , react , tailwind CSS and also have basic understanding of firebase authentication node.js , express.js , MongoDB .</p>
+                        <ul>
+                            <li>🚀<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent ' >Personal Journey & Skills</span></li>
+                        </ul>
+                        <p className='text-sm font-bold   text-gray-300 pl-7'>Besides studying, becoming a developer is an important part of my achievement. As a frontend developer I can create frontend using Html , CSS , JavaScript , react , tailwind CSS and also have basic understanding of firebase authentication node.js , express.js , MongoDB .</p>
                     </div>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
-                        <li>🎯 <span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Passion & Goal</span></li>
-                        <p className='text-sm font-bold   text-gray-600 pl-7'> Inventing new things, finding solutions to complex programming related problems, improving user experience with one's own skills, etc. are part of the passion of a developer.My goal as a developer is to develop myself as a skilled full-stack developer. Become familiar and proficient with new technologies. Finding solutions to programming related problems.
+                        <ul>
+                            <li>🎯 <span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Passion & Goal</span></li>
+                        </ul>
+                        <p className='text-sm font-bold   text-gray-300 pl-7'> Inventing new things, finding solutions to complex programming related problems, improving user experience with one's own skills, etc. are part of the passion of a developer.My goal as a developer is to develop myself as a skilled full-stack developer. Become familiar and proficient with new technologies. Finding solutions to programming related problems.
                         </p>
                     </div>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
-                        <li>💡<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>How I can help</span></li>
-                        <p className='text-sm font-bold   text-gray-600 pl-7'> I can build responsive, user-friendly, and visually appealing web interfaces that enhance user experience.I also ensure collaborate with designers and backend developers to create seamless, dynamic interfaces that improve customer satisfaction.</p>
+                        <ul>
+                            <li>💡<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>How I can help</span></li>
+                        </ul>
+                        <p className='text-sm font-bold   text-gray-300 pl-7'> I can build responsive, user-friendly, and visually appealing web interfaces that enhance user experience.I also ensure collaborate with designers and backend developers to create seamless, dynamic interfaces that improve customer satisfaction.</p>
                     </div>
                     <div className='bg-transparent sm:px-4 py-1 m-3 rounded-xl mt-auto'>
-                        <li>🎮<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Outside of coding</span></li>
-                        <p className='text-sm font-bold   text-gray-600 pl-7'> Outside of coding, I enjoy traveling, playing games, and organizing my surroundings. I truly believe that learning never stops — and I’m here for the journey.</p>
+                        <ul>
+                            <li>🎮<span className='text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent '>Outside of coding</span></li>
+                        </ul>
+                        <p className='text-sm font-bold   text-gray-300 pl-7'> Outside of coding, I enjoy traveling, playing games, and organizing my surroundings. I truly believe that learning never stops — and I’m here for the journey.</p>
                     </div>
                 </motion.div>
                 <div>
@@ -60,7 +70,7 @@ const AboutMe = () => {
                             },
                         }}
                         viewport={{ once: true, amount: 0.3 }}
-                        className="w-[350px]   h-[450px] shadow-2xl shadow-black mx-auto sm:my-12 border-4 border-black  object-cover rounded-full" src={pic} alt="" />
+                        className="w-[350px]   h-[550px] shadow-2xl shadow-black mx-auto sm:my-12 border-4 border-[#292929] rounded-lg" src={pic} alt="" />
                 </div>
             </div>
         </div>

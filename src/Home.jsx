@@ -11,7 +11,7 @@ import WorkProcess from "./WorkProcess";
 
 const Home = () => {
     return (
-        <div className="w-full border-animated">
+        <div className="w-full  bg-[#1b1b1b] overflow-hidden">
             <div className="w-full fixed  "><Navber></Navber></div>
             <div className="  pt-16 "><Banner></Banner></div>
             <div className=" "><WorkProcess></WorkProcess></div>

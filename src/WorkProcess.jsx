@@ -34,7 +34,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center '>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center '>
                     <img className=' w-44 h-44 mx-auto' src={pic1} alt="" />
                     <h3 className='text-xl font-bold text-white'>Design-First</h3>
                     <p className='text-sm font-bold text-gray-400'>I take a design-first approach in web app development. It’s not just about functionality — aesthetic and user experience are equally important.</p>
@@ -58,7 +58,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
                     <img className=' w-44 h-44 mx-auto ' src={pic4} alt="" />
                     <h3 className='text-xl font-bold text-white'>Performance Focused</h3>
                     <p className='text-sm font-bold text-gray-400'>I prioritize speed and optimization. Your website won’t just look good — it’ll load fast and perform flawlessly.</p>
@@ -82,7 +82,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
                     <img className=' w-44 h-44 mx-auto' src={pic5} alt="" />
                     <h3 className='text-xl font-bold text-white'>Responsive Design</h3>
                     <p className='text-sm font-bold text-gray-400'>No matter the device — desktop, tablet, or mobile — I ensure your app looks and feels great on all screen sizes.</p>
@@ -106,7 +106,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
                     <img className=' w-44 h-44 mx-auto' src={pic2} alt="" />
                     <h3 className='text-xl font-bold text-white'>Business-Minded</h3>
                     <p className='text-sm font-bold text-gray-400'>I always consider your business goals. From KPIs to ROI, I build web apps that make business sense and drive value.</p>
@@ -130,7 +130,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
                     <img className=' w-44 h-44 mx-auto' src={pic6} alt="" />
                     <h3 className='text-xl font-bold text-white'>Scalable Codebase</h3>
                     <p className='text-sm font-bold text-gray-400'>I write clean, modular, and scalable code so your project can grow without performance issues or tech debt.</p>
@@ -154,7 +154,7 @@ const WorkProcess = () => {
                         },
                     }}
                     viewport={{ once: true, amount: 0.3 }}
-                    className='rounded-4xl bg-gradient-to-r from-gray-900   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
+                    className='rounded-4xl bg-gradient-to-r from-gray-800   to-transparent hover:bg-gray-800 transition duration-800 p-7 text-center'>
                     <img className=' w-44 h-44 mx-auto' src={pic3} alt="" />
                     <h3 className='text-xl font-bold text-white'>Idea into Reality</h3>
                     <p className='text-sm font-bold text-gray-400'>Got an idea? I’ll help you turn that concept into a fully working product — from wireframing to MVP to full deployment.</p>

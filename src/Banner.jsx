@@ -1,5 +1,5 @@
 import Lottie from 'lottie-react'
-import animation from '../dist/assets/Animation - 1751276887432.json'
+import animation from '../public/Image/Animation - 1751276887432 (2).json'
 import pic1 from '../public/Image/icons8-facebook-logo-96.png'
 import pic2 from '../public/Image/icons8-github-logo-96.png'
 import pic3 from '../public/Image/icons8-linkedin-logo-96.png'
@@ -15,14 +15,14 @@ const Banner = () => {
                     initial={{ x: -500, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}>
-                    <h2 className="text-3xl font-bold my-1 sm:my-2 sm:pl-12  bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">I am Fahim Uddin</h2>
-                    <p className="text-xl font-bold my-1 sm:my-2 sm:pl-12 text-gray-500">MERN Steak Web Developer</p>
+                    <h2 className="text-3xl font-bold my-1 sm:my-5 sm:pl-12  bg-gradient-to-r from-cyan-400 to-blue-900 bg-clip-text text-transparent">I am Fahim Uddin</h2>
+                    <p className="text-xl font-bold my-1 sm:my-5 sm:pl-12 text-gray-300">MERN Steak Web Developer</p>
                 </motion.div>
                 <motion.p
                     initial={{ x: 500, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
-                    className="text-sm font-bold text-gray-600 my-1 sm:my-2 sm:pl-12 ">I am a MERN Steak web developer. Also has some idea about the backend. Experienced in working with HTML,CSS,javascript,tailwind css,react,firebase,express js,node js,mongodb. Willing to work on something more advanced in the future.
+                    className="text-sm font-bold text-gray-500 my-1 sm:my-5 sm:pl-12 ">I am a MERN Steak web developer. Also has some idea about the backend. Experienced in working with HTML,CSS,javascript,tailwind css,react,firebase,express js,node js,mongodb. Willing to work on something more advanced in the future.
                 </motion.p>
                 <motion.div
                     initial={{ y: 500, opacity: 0 }}
@@ -87,7 +87,7 @@ const Banner = () => {
                 initial={{ y: -500, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}>
-                <Lottie className='lg:w-[500px] lg:h-[500px] hover:opacity-100 transition duration-1000 lg:ml-48 z-10 opacity-40' animationData={animation}></Lottie>
+                <Lottie className='lg:w-[500px] lg:h-[500px] hover:opacity-100 transition duration-1000 lg:ml-48 z-10 opacity-60' animationData={animation}></Lottie>
             </motion.div>
         </div>
     );
